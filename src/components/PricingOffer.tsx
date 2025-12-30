@@ -7,23 +7,23 @@ export const PricingOffer = () => {
         {/* Emotional closing */}
         <div className="bg-card border border-border rounded-xl p-5 mb-6 text-center">
           <p className="text-foreground font-medium mb-2">
-            Você chegou até aqui por um motivo.
+            Você já investiu na sua caligrafia.
           </p>
           <p className="text-muted-foreground text-sm">
-            Lá no fundo você sabe que sua assinatura não te representa. 
-            E por menos de vinte reais, você pode mudar isso hoje.
+            Por mais R$19,90, você leva o material que vai transformar 
+            sua assinatura também. É o complemento perfeito.
           </p>
         </div>
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button variant="success" size="xl" className="w-full mb-4">
-            SIM, EU QUERO!
+            ADICIONAR AO MEU PEDIDO
           </Button>
 
           <div className="text-center">
             <Button variant="subtle" size="sm" className="text-xs">
-              Não, prefiro continuar assim
+              Não, seguir só com o curso
             </Button>
           </div>
         </div>
