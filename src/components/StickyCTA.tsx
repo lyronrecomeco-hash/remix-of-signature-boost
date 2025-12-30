@@ -11,7 +11,7 @@ export const StickyCTA = () => {
         </p>
         
         <Button variant="success" size="lg" className="w-full text-sm">
-          Adicionar o Workbook ao meu pedido
+          Adicionar o Manual ao meu pedido
         </Button>
       </div>
     </div>

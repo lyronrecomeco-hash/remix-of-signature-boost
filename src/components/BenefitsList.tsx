@@ -15,7 +15,7 @@ export const BenefitsList = () => {
       <div className="container">
         {/* Product name */}
         <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground text-center mb-4">
-          WORKBOOK DE ASSINATURA PROFISSIONAL
+          MANUAL DE ASSINATURA PROFISSIONAL
         </h2>
 
         {/* Product intro */}
