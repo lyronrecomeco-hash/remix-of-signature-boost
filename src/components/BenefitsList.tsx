@@ -1,12 +1,11 @@
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Workbook completo com 15 a 20 páginas de treino",
-  "Exercícios pra você parar de tremer na hora de assinar",
-  "Passo a passo pra criar variações da sua assinatura",
-  "Modelos pra você se inspirar e adaptar pro seu estilo",
-  "Espaço pra treinar até ficar natural",
-  "PDF pra baixar e imprimir quantas vezes quiser",
+  "Workbook exclusivo pra treinar sua assinatura",
+  "Exercícios pra deixar o traço firme e confiante",
+  "Variações pra você escolher o estilo que combina com você",
+  "Treino guiado, do zero até a assinatura final",
+  "PDF pra baixar junto com seu curso",
 ];
 
 export const BenefitsList = () => {
@@ -14,7 +13,7 @@ export const BenefitsList = () => {
     <section className="py-6 md:py-8">
       <div className="container">
         <p className="text-center text-foreground font-medium mb-5">
-          Por <span className="text-destructive">R$19,90</span> você leva:
+          O que vem no Workbook da Assinatura:
         </p>
 
         <ul className="space-y-3">

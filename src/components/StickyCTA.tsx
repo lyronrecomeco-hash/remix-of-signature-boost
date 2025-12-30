@@ -7,14 +7,14 @@ export const StickyCTA = () => {
       <div className="h-4 bg-gradient-to-t from-background to-transparent" />
       
       <div className="bg-background border-t border-border px-4 pb-5 pt-3 shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
-        {/* Emotional micro-copy */}
+        {/* Micro-copy */}
         <p className="text-center text-xs text-muted-foreground mb-3">
-          Você já sabe que precisa disso.
+          Adicione ao seu pedido por apenas R$19,90
         </p>
         
         {/* CTA Button */}
         <Button variant="success" size="lg" className="w-full">
-          SIM, EU QUERO!
+          ADICIONAR AGORA
         </Button>
       </div>
     </div>
