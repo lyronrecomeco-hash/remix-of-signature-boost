@@ -25,7 +25,7 @@ export const PricingOffer = () => {
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button variant="success" size="xl" className="w-full mb-4">
-            Adicionar o Workbook de Assinatura Profissional ao meu pedido
+            Adicionar o Manual de Assinatura Profissional ao meu pedido
           </Button>
 
           <Button variant="subtle" size="sm" className="text-xs">
