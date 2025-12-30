@@ -1,33 +1,31 @@
 export const ContextBlock = () => {
   return (
-    <section className="py-10 md:py-14 animate-fade-in-delay">
+    <section className="py-6 md:py-8">
       <div className="container">
-        <div className="bg-card border border-border rounded-2xl p-6 md:p-8">
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-5">
-            O problema que ninguém fala
-          </h2>
+        <div className="max-w-lg mx-auto text-center space-y-4">
+          <p className="text-foreground text-sm md:text-base">
+            Você acabou de investir na sua caligrafia.
+          </p>
           
-          <div className="space-y-4 text-muted-foreground leading-relaxed">
-            <p>
-              Você já reparou como assina documentos importantes? Contratos, registros, 
-              acordos que marcam sua vida?
-            </p>
-            
-            <p>
-              A maioria das pessoas faz um rabisco automático — sem intenção, sem 
-              identidade, sem presença. E depois se perguntam por que não são levadas 
-              a sério.
-            </p>
+          <p className="text-muted-foreground text-sm md:text-base">
+            Daqui a pouco sua escrita vai estar mais bonita, mais firme, mais confiante.
+          </p>
 
-            <p className="text-foreground font-medium">
-              Não é sobre ter "letra bonita". É sobre ter <span className="text-primary">método</span>.
-            </p>
+          <p className="text-foreground text-sm md:text-base font-medium pt-2">
+            Agora pensa comigo:
+          </p>
 
-            <p>
-              Uma assinatura construída com técnica transmite autoridade antes de você 
-              falar uma palavra.
-            </p>
-          </div>
+          <p className="text-muted-foreground text-sm md:text-base italic">
+            quando chegar a hora de assinar algo importante…
+            <br />
+            um contrato, uma proposta, um documento oficial…
+          </p>
+
+          <p className="text-foreground text-sm md:text-base font-medium">
+            O que aparece ali é só um rabisco —
+            <br />
+            ou um nome com presença?
+          </p>
         </div>
       </div>
     </section>
