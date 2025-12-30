@@ -1,27 +1,29 @@
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Método passo a passo pra construir sua assinatura do zero",
+  "Método pra construir sua assinatura do zero",
   "Exercícios de aquecimento pra soltar a mão",
-  "3 estilos de assinatura pra você escolher o seu",
-  "Páginas de treino pra repetir até ficar automático",
-  "Dicas pra assinar com confiança em qualquer situação",
+  "3 estilos pra você testar e escolher o seu",
+  "Páginas de treino pra repetir até virar natural",
+  "PDF pra baixar e imprimir quando quiser",
 ];
 
 export const BenefitsList = () => {
   return (
     <section className="py-6 md:py-8">
       <div className="container">
+        {/* Pain point */}
         <div className="bg-card border border-border rounded-xl p-5 mb-6">
           <p className="text-foreground text-sm md:text-base text-center">
-            Imagina daqui 30 dias você assinando um documento e a pessoa 
-            do outro lado <span className="font-medium">elogiando sua assinatura</span>. 
-            Isso muda como te veem.
+            Pensa comigo: você vai assinar um contrato importante, 
+            uma proposta, um documento... e a pessoa do outro lado 
+            vai ver <span className="italic">aquele</span> rabisco?
           </p>
         </div>
 
-        <p className="text-center text-foreground font-medium mb-5">
-          O que você recebe:
+        {/* Solution intro */}
+        <p className="text-center text-muted-foreground text-sm mb-5">
+          Eu preparei um material específico pra isso:
         </p>
 
         <ul className="space-y-3 mb-6">
@@ -38,15 +40,10 @@ export const BenefitsList = () => {
           ))}
         </ul>
 
-        {/* Urgency block */}
-        <div className="bg-destructive/5 border border-destructive/20 rounded-xl p-4 text-center">
-          <p className="text-foreground text-sm font-medium">
-            Esse manual não é vendido separadamente.
-          </p>
-          <p className="text-muted-foreground text-xs mt-1">
-            Só quem comprou o curso agora tem acesso a essa oferta.
-          </p>
-        </div>
+        {/* Exclusivity */}
+        <p className="text-center text-muted-foreground text-xs">
+          Esse material só aparece aqui, agora, pra quem acabou de comprar.
+        </p>
       </div>
     </section>
   );
