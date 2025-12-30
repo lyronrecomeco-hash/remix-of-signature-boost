@@ -6,20 +6,23 @@ export const PricingOffer = () => {
       <div className="container text-center">
         {/* Price anchor */}
         <p className="text-muted-foreground text-sm mb-1">
-          Preço normal: <span className="line-through">R$47</span>
+          Valor real: <span className="line-through">R$47</span>
         </p>
         
         {/* Special price */}
         <p className="text-foreground text-sm mb-1">
-          Agora, no seu pedido:
+          Só agora, junto com seu pedido:
         </p>
-        <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
+        <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-2">
           R$19,90
+        </p>
+        <p className="text-muted-foreground text-xs mb-4">
+          (menos de R$0,70 por dia de treino)
         </p>
 
         {/* Final warning */}
-        <p className="text-destructive text-sm font-medium mb-6">
-          Se você sair desta página, essa oferta desaparece.
+        <p className="text-destructive text-sm font-bold mb-6">
+          Essa é a única chance. Depois dessa página, acabou.
         </p>
 
         {/* Desktop CTA */}

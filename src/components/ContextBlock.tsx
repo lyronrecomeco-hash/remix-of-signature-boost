@@ -4,19 +4,19 @@ export const ContextBlock = () => {
       <div className="container">
         <div className="max-w-lg mx-auto text-center space-y-4">
           <p className="text-foreground text-sm md:text-base font-medium">
-            E assinatura é o que fica.
+            Assinatura é diferente de letra.
           </p>
           
           <p className="text-muted-foreground text-sm md:text-base">
-            É o traço que aparece em contrato, proposta, documento.
+            Ela aparece em contrato, proposta, documento importante.
           </p>
 
           <p className="text-muted-foreground text-sm md:text-base">
-            É ali que as pessoas formam opinião — mesmo sem perceber.
+            E é ali que as pessoas julgam você — mesmo sem perceber.
           </p>
           
           <p className="text-foreground text-sm md:text-base font-semibold">
-            Por isso existe este material.
+            Se você fechar essa página, sua assinatura fica como está. Para sempre.
           </p>
         </div>
       </div>
