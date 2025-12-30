@@ -6,20 +6,20 @@ export const UpsellHero = () => {
       <div className="container">
         {/* Opening hook */}
         <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground leading-tight text-center mb-4">
-          Antes de seguir.
+          Espera. Isso aqui é uma única vez.
         </h1>
 
         <div className="max-w-lg mx-auto text-center space-y-4 mb-6">
-          <p className="text-muted-foreground text-sm md:text-base">
-            Isso que você está vendo agora não aparece depois.
-          </p>
-
           <p className="text-foreground text-sm md:text-base font-medium">
-            Sua letra vai evoluir com o que você comprou.
+            Sua letra vai melhorar com o que você comprou.
           </p>
 
           <p className="text-muted-foreground text-sm md:text-base">
-            Mas a sua assinatura só muda se você tratar ela separadamente.
+            Mas sua assinatura? Ela vai continuar a mesma.
+          </p>
+
+          <p className="text-foreground text-sm md:text-base font-semibold">
+            A não ser que você corrija agora — neste exato momento.
           </p>
         </div>
 

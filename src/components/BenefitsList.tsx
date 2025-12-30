@@ -21,13 +21,13 @@ export const BenefitsList = () => {
         {/* Product intro */}
         <div className="text-center mb-6 space-y-2">
           <p className="text-muted-foreground text-sm md:text-base">
-            Um complemento direto ao que você acabou de comprar.
+            Feito para quem quer parar de ter vergonha na hora de assinar.
           </p>
           <p className="text-foreground text-sm md:text-base font-medium">
-            Sem teoria. Sem enrolação.
+            Exercícios práticos. Zero enrolação.
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
-            Só treino prático para construir uma assinatura firme e consistente.
+            Em poucos dias você vai ter uma assinatura que transmite confiança.
           </p>
         </div>
 
@@ -56,12 +56,12 @@ export const BenefitsList = () => {
         </ul>
 
         {/* Exclusivity */}
-        <div className="text-center space-y-2">
-          <p className="text-foreground text-sm font-medium">
-            Esse material não é vendido separadamente.
+        <div className="text-center space-y-2 bg-destructive/10 rounded-lg p-4">
+          <p className="text-destructive text-sm font-bold">
+            ⚠️ Este material NÃO está à venda em nenhum outro lugar.
           </p>
-          <p className="text-muted-foreground text-sm">
-            Ele só aparece neste momento.
+          <p className="text-foreground text-sm font-medium">
+            Se você passar dessa página, nunca mais vai ter acesso a ele.
           </p>
         </div>
       </div>
