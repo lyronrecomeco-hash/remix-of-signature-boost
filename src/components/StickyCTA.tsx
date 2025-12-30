@@ -7,11 +7,11 @@ export const StickyCTA = () => {
       
       <div className="bg-background border-t border-border px-4 pb-5 pt-3 shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
         <p className="text-center text-xs text-muted-foreground mb-2">
-          Adicione por apenas <span className="text-primary font-bold">R$19,90</span>
+          Agora: <span className="text-primary font-bold">R$19,90</span>
         </p>
         
-        <Button variant="success" size="lg" className="w-full">
-          SIM, EU QUERO!
+        <Button variant="success" size="lg" className="w-full text-sm">
+          Adicionar ao meu pedido
         </Button>
       </div>
     </div>

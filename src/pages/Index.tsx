@@ -1,5 +1,6 @@
 import { AlertBanner } from "@/components/AlertBanner";
 import { UpsellHero } from "@/components/UpsellHero";
+import { ContextBlock } from "@/components/ContextBlock";
 import { BenefitsList } from "@/components/BenefitsList";
 import { PricingOffer } from "@/components/PricingOffer";
 import { StickyCTA } from "@/components/StickyCTA";
@@ -14,6 +15,7 @@ const Index = () => {
       <main>
         <article>
           <UpsellHero />
+          <ContextBlock />
           <BenefitsList />
           <PricingOffer />
         </article>
@@ -27,7 +29,6 @@ const Index = () => {
         </div>
       </footer>
 
-      {/* Sticky CTA for mobile */}
       <StickyCTA />
     </div>
   );
