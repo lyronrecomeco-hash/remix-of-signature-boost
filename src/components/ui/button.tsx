@@ -17,7 +17,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         gold: "bg-gradient-to-r from-gold to-gold-dark text-primary-foreground font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] animate-glow-pulse",
         goldOutline: "border-2 border-gold text-gold hover:bg-gold/10 font-medium",
-        subtle: "bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground",
+        success: "bg-success text-success-foreground font-bold shadow-lg hover:brightness-110 hover:scale-[1.02] active:scale-[0.98] uppercase tracking-wide",
+        subtle: "bg-transparent text-muted-foreground hover:text-foreground underline underline-offset-4",
       },
       size: {
         default: "h-10 px-4 py-2",

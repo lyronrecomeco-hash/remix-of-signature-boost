@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 
 const benefits = [
+  "Workbook da Assinatura Profissional — 15 a 20 páginas de treino guiado",
   "Exercícios práticos para traços firmes e consistentes",
   "Guia passo a passo para criar variações da sua assinatura",
   "Técnicas de fluidez que eliminam tremores e hesitações",
@@ -11,29 +12,28 @@ const benefits = [
 
 export const BenefitsList = () => {
   return (
-    <section className="py-10 md:py-14">
+    <section className="py-6 md:py-8">
       <div className="container">
-        <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground text-center mb-8">
-          O que você recebe
-        </h2>
+        <p className="text-center text-foreground font-medium mb-6">
+          Apenas <span className="text-destructive">Aqui</span> e{" "}
+          <span className="text-destructive">AGORA</span>, Por Apenas{" "}
+          <span className="text-destructive font-bold">R$19,90!</span>{" "}
+          Você Recebe:
+        </p>
 
-        <div className="bg-card border border-border rounded-2xl p-6 md:p-8">
-          <ul className="space-y-4">
-            {benefits.map((benefit, index) => (
-              <li 
-                key={index}
-                className="flex items-start gap-3"
-              >
-                <span className="flex-shrink-0 w-5 h-5 bg-primary/20 border border-primary/40 rounded-full flex items-center justify-center mt-0.5">
-                  <Check className="w-3 h-3 text-primary" />
-                </span>
-                <span className="text-muted-foreground">
-                  {benefit}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ul className="space-y-3">
+          {benefits.map((benefit, index) => (
+            <li 
+              key={index}
+              className="flex items-start gap-3"
+            >
+              <Check className="w-5 h-5 text-success flex-shrink-0 mt-0.5" strokeWidth={3} />
+              <span className="text-foreground text-sm md:text-base">
+                {benefit}
+              </span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
