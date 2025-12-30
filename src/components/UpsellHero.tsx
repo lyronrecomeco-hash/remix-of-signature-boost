@@ -11,10 +11,6 @@ export const UpsellHero = () => {
         </h1>
 
         <div className="max-w-lg mx-auto text-center space-y-4 mb-6">
-          <p className="text-primary text-xs md:text-sm font-bold uppercase tracking-wide">
-            O choque de realidade
-          </p>
-
           <p className="text-foreground text-sm md:text-base font-medium">
             Parabéns pela compra. De verdade. Em poucos dias, sua caligrafia será outra.
           </p>
