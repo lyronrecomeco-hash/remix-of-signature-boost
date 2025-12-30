@@ -2,32 +2,44 @@ import { Check } from "lucide-react";
 import workbookPreview from "@/assets/workbook-preview.jpg";
 
 const benefits = [
-  "Método guiado para criar sua assinatura do zero",
-  "Exercícios para destravar a mão e ganhar controle",
-  "3 estilos para testar e definir o seu",
-  "Páginas de treino para repetir até virar natural",
-  "PDF para baixar e imprimir",
+  {
+    title: "O fim do travamento",
+    description: "Exercícios práticos para sua mão ganhar firmeza e velocidade."
+  },
+  {
+    title: "Design de Nome",
+    description: "Como escolher os traços que dão elegância ao seu nome."
+  },
+  {
+    title: "3 Modelos de Assinatura",
+    description: "Do clássico ao moderno, para você escolher o seu."
+  },
+  {
+    title: "Guia de Treino (PDF)",
+    description: "É só imprimir e praticar. Em 15 minutos sua assinatura já nasce outra."
+  },
 ];
 
 export const BenefitsList = () => {
   return (
     <section className="py-6 md:py-8">
       <div className="container">
-        {/* Product name */}
-        <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground text-center mb-4">
-          MANUAL DE ASSINATURA PROFISSIONAL
-        </h2>
+        {/* Section label */}
+        <p className="text-primary text-xs md:text-sm font-bold uppercase tracking-wide text-center mb-2">
+          A oportunidade única
+        </p>
 
         {/* Product intro */}
-        <div className="text-center mb-6 space-y-2">
-          <p className="text-muted-foreground text-sm md:text-base">
-            Feito para quem quer parar de ter vergonha na hora de assinar.
-          </p>
+        <div className="text-center mb-6 space-y-3">
           <p className="text-foreground text-sm md:text-base font-medium">
-            Exercícios práticos. Zero enrolação.
+            Eu não quero que você tenha um trabalho "pela metade".
           </p>
           <p className="text-muted-foreground text-sm md:text-base">
-            Em poucos dias você vai ter uma assinatura que transmite confiança.
+            Por isso, preparei o <span className="text-foreground font-semibold">Manual da Assinatura Profissional</span>.
+          </p>
+          <p className="text-muted-foreground text-sm md:text-base">
+            É um método rápido e sem enrolação para você abandonar aquele traço infantil e criar uma assinatura que transmite{" "}
+            <span className="text-foreground font-semibold">respeito e presença</span>.
           </p>
         </div>
 
@@ -40,30 +52,30 @@ export const BenefitsList = () => {
           />
         </div>
 
+        {/* Benefits header */}
+        <p className="text-foreground text-sm md:text-base font-semibold text-center mb-4">
+          O que você vai receber agora por um valor simbólico:
+        </p>
+
         {/* Benefits */}
-        <ul className="space-y-3 mb-8">
+        <ul className="space-y-4 mb-8">
           {benefits.map((benefit, index) => (
             <li 
               key={index}
               className="flex items-start gap-3"
             >
-              <Check className="w-5 h-5 text-success flex-shrink-0 mt-0.5" strokeWidth={3} />
-              <span className="text-foreground text-sm md:text-base">
-                {benefit}
-              </span>
+              <Check className="w-5 h-5 text-success flex-shrink-0 mt-1" strokeWidth={3} />
+              <div>
+                <span className="text-foreground text-sm md:text-base font-semibold">
+                  {benefit.title}:
+                </span>{" "}
+                <span className="text-muted-foreground text-sm md:text-base">
+                  {benefit.description}
+                </span>
+              </div>
             </li>
           ))}
         </ul>
-
-        {/* Exclusivity */}
-        <div className="text-center space-y-2 bg-destructive/10 rounded-lg p-4">
-          <p className="text-destructive text-sm font-bold">
-            ⚠️ Este material NÃO está à venda em nenhum outro lugar.
-          </p>
-          <p className="text-foreground text-sm font-medium">
-            Se você passar dessa página, nunca mais vai ter acesso a ele.
-          </p>
-        </div>
       </div>
     </section>
   );
