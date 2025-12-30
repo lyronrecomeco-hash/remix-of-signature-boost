@@ -64,11 +64,19 @@
 
   html {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
 
+  /* Hide scrollbar for all browsers */
   body {
     @apply bg-background text-foreground antialiased;
     font-family: var(--font-body);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
   }
 
   h1, h2, h3, h4, h5, h6 {
