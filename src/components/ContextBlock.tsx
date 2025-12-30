@@ -4,11 +4,19 @@ export const ContextBlock = () => {
       <div className="container">
         <div className="max-w-lg mx-auto text-center space-y-4">
           <p className="text-foreground text-sm md:text-base font-medium">
-            Assinatura não se improvisa.
+            E assinatura é o que fica.
           </p>
           
           <p className="text-muted-foreground text-sm md:text-base">
-            Ou você constrói — ou aceita o rabisco.
+            É o traço que aparece em contrato, proposta, documento.
+          </p>
+
+          <p className="text-muted-foreground text-sm md:text-base">
+            É ali que as pessoas formam opinião — mesmo sem perceber.
+          </p>
+          
+          <p className="text-foreground text-sm md:text-base font-semibold">
+            Por isso existe este material.
           </p>
         </div>
       </div>
