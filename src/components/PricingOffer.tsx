@@ -3,35 +3,41 @@ import { Button } from "@/components/ui/button";
 export const PricingOffer = () => {
   return (
     <section className="py-8 md:py-10 pb-36 md:pb-10">
-      <div className="container">
-        {/* Emotional closing */}
-        <div className="bg-card border border-border rounded-xl p-5 mb-6 text-center">
-          <p className="text-foreground font-medium mb-2">
-            Você já investiu na sua caligrafia.
+      <div className="container text-center">
+        {/* Price */}
+        <div className="mb-6">
+          <p className="text-muted-foreground text-sm mb-1">
+            Valor normal: <span className="line-through">R$47</span>
           </p>
-          <p className="text-muted-foreground text-sm">
-            Por mais R$19,90, você leva o material que vai transformar 
-            sua assinatura também. É o complemento perfeito.
+          <p className="text-foreground">
+            Agora, junto com seu pedido:
+          </p>
+          <p className="font-display text-4xl md:text-5xl font-bold text-primary mt-2">
+            R$19,90
           </p>
         </div>
+
+        {/* Final push */}
+        <p className="text-muted-foreground text-sm mb-6 max-w-sm mx-auto">
+          Menos de um café por dia durante uma semana. 
+          E sua assinatura muda pra sempre.
+        </p>
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button variant="success" size="xl" className="w-full mb-4">
-            ADICIONAR AO MEU PEDIDO
+            QUERO O MANUAL DA ASSINATURA
           </Button>
 
-          <div className="text-center">
-            <Button variant="subtle" size="sm" className="text-xs">
-              Não, seguir só com o curso
-            </Button>
-          </div>
+          <Button variant="subtle" size="sm" className="text-xs">
+            Não, vou continuar com minha assinatura atual
+          </Button>
         </div>
 
         {/* Mobile rejection */}
-        <div className="md:hidden text-center">
+        <div className="md:hidden">
           <Button variant="subtle" size="sm" className="text-xs">
-            Não, obrigado
+            Não quero melhorar minha assinatura
           </Button>
         </div>
       </div>
