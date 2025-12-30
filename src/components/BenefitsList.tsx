@@ -2,11 +2,11 @@ import { Check } from "lucide-react";
 import workbookPreview from "@/assets/workbook-preview.jpg";
 
 const benefits = [
-  "Método prático para construir sua assinatura do zero",
+  "Método guiado para criar sua assinatura do zero",
   "Exercícios para destravar a mão e ganhar controle",
-  "3 estilos de assinatura para testar e escolher",
+  "3 estilos para testar e definir o seu",
   "Páginas de treino para repetir até virar natural",
-  "PDF para baixar e imprimir quando quiser",
+  "PDF para baixar e imprimir",
 ];
 
 export const BenefitsList = () => {
@@ -14,9 +14,22 @@ export const BenefitsList = () => {
     <section className="py-6 md:py-8">
       <div className="container">
         {/* Product name */}
-        <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground text-center mb-6">
-          MANUAL DE ASSINATURA PROFISSIONAL
+        <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground text-center mb-4">
+          WORKBOOK DE ASSINATURA PROFISSIONAL
         </h2>
+
+        {/* Product intro */}
+        <div className="text-center mb-6 space-y-2">
+          <p className="text-muted-foreground text-sm md:text-base">
+            Um complemento direto ao que você acabou de comprar.
+          </p>
+          <p className="text-foreground text-sm md:text-base font-medium">
+            Sem teoria. Sem enrolação.
+          </p>
+          <p className="text-muted-foreground text-sm md:text-base">
+            Só treino prático para construir uma assinatura firme e consistente.
+          </p>
+        </div>
 
         {/* Product image */}
         <div className="rounded-xl overflow-hidden shadow-lg mb-6">
@@ -48,10 +61,7 @@ export const BenefitsList = () => {
             Esse material não é vendido separadamente.
           </p>
           <p className="text-muted-foreground text-sm">
-            Não existe link depois.
-          </p>
-          <p className="text-muted-foreground text-sm">
-            Não existe desconto depois.
+            Ele só aparece neste momento.
           </p>
         </div>
       </div>

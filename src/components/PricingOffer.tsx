@@ -11,7 +11,7 @@ export const PricingOffer = () => {
         
         {/* Special price */}
         <p className="text-foreground text-sm mb-1">
-          Agora, somente nesta página:
+          Agora, no seu pedido:
         </p>
         <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
           R$19,90
@@ -19,13 +19,13 @@ export const PricingOffer = () => {
 
         {/* Final warning */}
         <p className="text-destructive text-sm font-medium mb-6">
-          Se você sair agora, perde o acesso a essa oferta.
+          Se você sair desta página, essa oferta desaparece.
         </p>
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
           <Button variant="success" size="xl" className="w-full mb-4">
-            Adicionar o Manual de Assinatura Profissional ao meu pedido
+            Adicionar o Workbook de Assinatura Profissional ao meu pedido
           </Button>
 
           <Button variant="subtle" size="sm" className="text-xs">
