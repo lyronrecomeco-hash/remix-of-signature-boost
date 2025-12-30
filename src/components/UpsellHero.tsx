@@ -2,32 +2,32 @@ import signatureHero from "@/assets/signature-hero.jpg";
 
 export const UpsellHero = () => {
   return (
-    <section className="py-8 md:py-12 animate-fade-in">
+    <section className="py-6 md:py-10 animate-fade-in">
       <div className="container">
-        {/* Opening hook */}
-        <h1 className="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground leading-tight text-center mb-4">
-          Antes de seguir.
-        </h1>
+        {/* Aggressive headline */}
+        <div className="bg-foreground text-background py-4 px-4 mb-6 -mx-4 md:mx-0 md:rounded-lg">
+          <h1 className="font-display text-lg md:text-2xl lg:text-3xl font-bold leading-tight text-center uppercase">
+            Sua letra vai melhorar... Mas sua assinatura vai continuar um <span className="text-primary">RABISCO FEIO!</span>
+          </h1>
+        </div>
 
-        <div className="max-w-lg mx-auto text-center space-y-4 mb-6">
-          <p className="text-muted-foreground text-sm md:text-base">
-            Isso que você está vendo agora não aparece depois.
+        {/* Subheadline */}
+        <div className="text-center mb-6">
+          <p className="text-primary font-bold text-sm md:text-base uppercase tracking-wide">
+            Garanta Acesso Imediato + Bônus Exclusivo
           </p>
-
-          <p className="text-foreground text-sm md:text-base font-medium">
-            Sua letra vai evoluir com o que você comprou.
-          </p>
-
-          <p className="text-muted-foreground text-sm md:text-base">
-            Mas a sua assinatura só muda se você tratar ela separadamente.
-          </p>
+          <div className="flex items-center justify-center gap-2 mt-2">
+            <span className="text-muted-foreground line-through text-sm">De R$47,00</span>
+            <span className="text-foreground font-bold">por</span>
+            <span className="text-success font-bold text-2xl md:text-3xl">R$19,90</span>
+          </div>
         </div>
 
         {/* Hero Image */}
-        <div className="rounded-xl overflow-hidden shadow-lg">
+        <div className="rounded-xl overflow-hidden shadow-xl border-4 border-primary/20">
           <img 
             src={signatureHero} 
-            alt="Assinatura profissional" 
+            alt="Manual de Assinatura Profissional" 
             className="w-full h-auto object-cover"
           />
         </div>
