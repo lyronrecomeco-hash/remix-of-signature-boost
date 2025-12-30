@@ -10,7 +10,6 @@ import { FinalWarning } from "@/components/FinalWarning";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* SEO Meta would go in Helmet, using semantic HTML structure */}
       <header>
         <AlertBanner />
       </header>
@@ -29,8 +28,7 @@ const Index = () => {
       <footer>
         <FinalWarning />
         
-        {/* Footer legal text */}
-        <div className="py-8 border-t border-border">
+        <div className="py-6 border-t border-border">
           <div className="container">
             <p className="text-xs text-muted-foreground text-center">
               © {new Date().getFullYear()} Caligrafia Bíblica. Todos os direitos reservados.
