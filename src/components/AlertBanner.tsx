@@ -3,7 +3,7 @@ export const AlertBanner = () => {
     <div className="bg-destructive py-3 px-4 animate-fade-in">
       <div className="container text-center">
         <p className="text-sm font-medium text-destructive-foreground">
-          Se você sair desta página, essa decisão não poderá ser refeita.
+          Essa é a única chance de corrigir sua assinatura junto com sua caligrafia.
         </p>
       </div>
     </div>

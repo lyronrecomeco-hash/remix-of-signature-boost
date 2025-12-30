@@ -2,35 +2,17 @@ import { Check } from "lucide-react";
 import workbookPreview from "@/assets/workbook-preview.jpg";
 
 const benefits = [
-  "Método passo a passo pra construir sua assinatura do zero",
-  "Exercícios de aquecimento pra soltar a mão e ganhar controle",
-  "3 estilos pra testar e escolher o seu",
-  "Páginas de treino pra repetir até virar natural",
-  "PDF pra baixar e imprimir quando quiser",
+  "Método prático para construir sua assinatura do zero",
+  "Exercícios para destravar a mão e ganhar controle",
+  "3 estilos de assinatura para testar e escolher",
+  "Páginas de treino para repetir até virar natural",
+  "PDF para baixar e imprimir quando quiser",
 ];
 
 export const BenefitsList = () => {
   return (
     <section className="py-6 md:py-8">
       <div className="container">
-        {/* Problem statement */}
-        <div className="max-w-lg mx-auto text-center mb-8">
-          <p className="text-muted-foreground text-sm md:text-base mb-3">
-            A maioria das pessoas nunca aprende a construir uma assinatura.
-          </p>
-          <p className="text-muted-foreground text-sm md:text-base mb-3">
-            Elas improvisam.
-          </p>
-          <p className="text-foreground text-sm md:text-base font-medium">
-            E improviso não passa autoridade.
-          </p>
-        </div>
-
-        {/* Solution */}
-        <p className="text-center text-muted-foreground text-sm mb-4">
-          Por isso existe um material específico pra isso.
-        </p>
-
         {/* Product name */}
         <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground text-center mb-6">
           WORKBOOK DE ASSINATURA PROFISSIONAL
@@ -46,7 +28,7 @@ export const BenefitsList = () => {
         </div>
 
         {/* Benefits */}
-        <ul className="space-y-3 mb-6">
+        <ul className="space-y-3 mb-8">
           {benefits.map((benefit, index) => (
             <li 
               key={index}
@@ -66,7 +48,10 @@ export const BenefitsList = () => {
             Esse material não é vendido separadamente.
           </p>
           <p className="text-muted-foreground text-sm">
-            Ele só aparece agora, logo após sua compra.
+            Não existe link depois.
+          </p>
+          <p className="text-muted-foreground text-sm">
+            Não existe desconto depois.
           </p>
         </div>
       </div>

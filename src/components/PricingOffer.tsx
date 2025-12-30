@@ -10,11 +10,16 @@ export const PricingOffer = () => {
         </p>
         
         {/* Special price */}
-        <p className="text-foreground text-lg mb-1">
-          Agora:
+        <p className="text-foreground text-sm mb-1">
+          Agora, somente nesta página:
         </p>
-        <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-6">
+        <p className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
           R$19,90
+        </p>
+
+        {/* Final warning */}
+        <p className="text-destructive text-sm font-medium mb-6">
+          Se você sair agora, perde o acesso a essa oferta.
         </p>
 
         {/* Desktop CTA */}
