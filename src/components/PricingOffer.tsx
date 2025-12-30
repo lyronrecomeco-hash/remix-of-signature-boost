@@ -4,11 +4,6 @@ export const PricingOffer = () => {
   return (
     <section className="py-8 md:py-10 pb-36 md:pb-10">
       <div className="container text-center">
-        {/* Section label */}
-        <p className="text-primary text-xs md:text-sm font-bold uppercase tracking-wide mb-4">
-          O contraste de preço
-        </p>
-
         {/* Price anchor */}
         <p className="text-muted-foreground text-sm mb-2">
           Esse manual custa <span className="line-through">R$ 47,00</span> em nossa loja.{" "}

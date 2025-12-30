@@ -24,11 +24,6 @@ export const BenefitsList = () => {
   return (
     <section className="py-6 md:py-8">
       <div className="container">
-        {/* Section label */}
-        <p className="text-primary text-xs md:text-sm font-bold uppercase tracking-wide text-center mb-2">
-          A oportunidade única
-        </p>
-
         {/* Product intro */}
         <div className="text-center mb-6 space-y-3">
           <p className="text-foreground text-sm md:text-base font-medium">
